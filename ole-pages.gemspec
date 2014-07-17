@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = OlePages::VERSION
   spec.authors       = ["Jain Waldrip"]
   spec.email         = ["jkwaldri@iu.edu"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Testing Page-Object with OLE}
+  spec.description   = %q{Testing the Page-Object gem for writing Kuali OLE tests}
   spec.homepage      = ""
   spec.license       = "ECLv2"
 
@@ -22,6 +22,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rspec","~> 2.14"
   spec.add_dependency "net-http-persistent"
   spec.add_dependency "numerizer"
+  spec.add_dependency "chronic"
   spec.add_dependency "marc"
   spec.add_dependency "cucumber"
   spec.add_dependency "watir-webdriver"
