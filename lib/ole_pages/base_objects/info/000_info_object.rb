@@ -14,6 +14,8 @@
 
 # An object to provide data and linkages between APIs. 
 # @note Not intended to be used as a control structure.
+#   This object does provide additional functionality to DataObjects,
+#   but DataObjects are intended to be the primary control structure.
 class InfoObject
 
   include OlePages::Helpers
